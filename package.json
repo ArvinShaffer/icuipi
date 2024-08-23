@@ -1,0 +1,18 @@
+{
+  "name": "icuipi",
+  "version": "1.0.0",
+  "description": "A personal blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xushengrui",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.15",
+    "vuepress": "^2.0.0-rc.15",
+    "vuepress-theme-plume": "^1.0.0-rc.88"
+  }
+}
